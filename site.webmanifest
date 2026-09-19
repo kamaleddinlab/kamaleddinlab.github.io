@@ -1,16 +1,10 @@
 {
-  "name": "Kamaleddin Research Group",
-  "short_name": "KRG",
+  "name": "Kamaleddin Lab",
+  "short_name": "Kamaleddin Lab",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f7f9fc",
-  "theme_color": "#0b1324",
-  "icons": [
-    {
-      "src": "assets/img/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
+  "background_color": "#f5f4ef",
+  "theme_color": "#13211c",
+  "icons": [{"src":"/assets/img/favicon.svg","sizes":"any","type":"image/svg+xml"}]
 }
