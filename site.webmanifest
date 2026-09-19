@@ -2,9 +2,8 @@
   "name": "Kamaleddin Lab",
   "short_name": "Kamaleddin Lab",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "background_color": "#f8f6f0",
-  "theme_color": "#132b2a",
+  "background_color": "#fffdfa",
+  "theme_color": "#10242d",
   "icons": []
 }

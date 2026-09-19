@@ -1,31 +1,37 @@
 # Kamaleddin Lab website
 
-Static GitHub Pages site for https://kamaleddinlab.github.io/.
+Static GitHub Pages site for `https://kamaleddinlab.github.io/`.
 
 ## Deploy
-Copy the **contents of this folder** into the root of `kamaleddinlab/kamaleddinlab.github.io`, then:
+Copy every file and folder in this package to the root of `kamaleddinlab/kamaleddinlab.github.io`, then:
 
 ```bash
 git add .
-git commit -m "Refresh Kamaleddin Lab website"
+git commit -m "Redesign Kamaleddin Lab website"
 git push origin main
 ```
 
-GitHub Pages should be configured as **Deploy from a branch → main → /(root)**.
+GitHub Pages settings: **Deploy from a branch → main → /(root)**.
 
-## Structure
-- `index.html` — homepage
-- `research.html` — three research programs and principles
-- `people.html` — lab lead, current trainees, mentorship, selected alumni
-- `publications.html` — visual flagship papers + selected searchable archive
-- `news.html` — recent papers and funded project updates
-- `join.html` — trainee/collaborator fit and contact
-- `assets/img/*.svg` — original site-native scientific visual summaries
+## Team portraits
+All person cards use the same 4:5 frame and `object-fit: cover`, so replacement photos stay visually consistent.
 
-## Public assets and attribution
-- Publication graphics in `assets/img/visual-*.svg` are **original visual summaries created for this site** from information reported in the linked primary articles; they are not copied journal figures.
-- The PI portrait is loaded from a public University of Toronto Biomedical Engineering image URL, with the public GitHub avatar as fallback. Replace it with a lab-owned photo at any time for full control.
-- CIHR, Brain Canada Foundation, and Mitacs marks are displayed only to acknowledge research support and remain the property of their respective organizations. The site links each mark to the funder's official website.
+Two public identities could be matched unambiguously during the site research:
+- Mohammad Amin Kamaleddin — official University of Toronto portrait
+- Erzheng (Erwin) Zhang — public professional portrait, with LinkedIn and personal website confirming the identity
 
-## Important content note
-The site intentionally presents a research-group narrative rather than a chronological biography. Keep news, people, funding, and project status current as the group evolves.
+Public searches for Zachary Korte, Karthika Baiju, and Ming Xuan Yue returned multiple or clearly unrelated people. The package therefore uses neutral, same-format monogram portraits instead of risking a wrong identity. Replace these files when you have a verified photo:
+- `assets/img/zachary-korte.svg`
+- `assets/img/karthika-baiju.svg`
+- `assets/img/ming-xuan-yue.svg`
+
+## Main content files
+- `index.html` — group-oriented homepage
+- `research.html` — three research programs and methods
+- `people.html` — team and lab culture
+- `publications.html` — selected visual publications, not an exhaustive bibliography
+- `news.html` — current work and lab updates
+- `join.html` — trainee and collaborator information
+
+## Visual approach
+The site intentionally avoids long biographical timelines, award lists, and citation counters. Research, people, projects, and collaboration are the primary hierarchy.
