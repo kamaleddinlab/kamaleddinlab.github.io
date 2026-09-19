@@ -1,18 +1,6 @@
-const menuButton = document.querySelector('.menu-btn');
-menuButton?.addEventListener('click', () => {
-  document.body.classList.toggle('nav-open');
-  menuButton.setAttribute('aria-expanded', document.body.classList.contains('nav-open') ? 'true' : 'false');
-});
-document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => document.body.classList.remove('nav-open')));
-
-document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.08 });
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+const navToggle=document.querySelector('.nav-toggle');
+if(navToggle){navToggle.addEventListener('click',()=>{const open=document.body.classList.toggle('nav-open');navToggle.setAttribute('aria-expanded',String(open));});}
+document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>document.body.classList.remove('nav-open')));
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -30px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());

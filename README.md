@@ -1,65 +1,31 @@
 # Kamaleddin Lab website
 
-Production website for **https://kamaleddinlab.github.io/**.
+Static GitHub Pages site for https://kamaleddinlab.github.io/.
 
 ## Deploy
-
-This is a build-free static site. Upload/push the full contents of this folder to the `main` branch of:
-
-`kamaleddinlab/kamaleddinlab.github.io`
-
-In GitHub: **Settings → Pages → Deploy from a branch → main → /(root)**.
-
-## Important structure
-
-Do not omit the `assets/` directory.
-
-```text
-kamaleddinlab.github.io/
-├── index.html
-├── research.html
-├── people.html
-├── publications.html
-├── join.html
-├── 404.html
-├── assets/
-│   ├── css/site.css
-│   ├── js/site.js
-│   ├── js/publications.js
-│   └── img/
-├── robots.txt
-├── sitemap.xml
-├── site.webmanifest
-└── .nojekyll
-```
-
-## Editing
-
-- Homepage story: `index.html`
-- Research programs: `research.html`
-- People / trainees: `people.html`
-- Publication database: `assets/js/publications.js`
-- Opportunities/contact: `join.html`
-- Visual system and responsive styling: `assets/css/site.css`
-
-## Local preview in VS Code
-
-Use the **Live Server** extension and open `index.html`, or run:
+Copy the **contents of this folder** into the root of `kamaleddinlab/kamaleddinlab.github.io`, then:
 
 ```bash
-python -m http.server 8000
+git add .
+git commit -m "Refresh Kamaleddin Lab website"
+git push origin main
 ```
 
-Then visit `http://localhost:8000`.
+GitHub Pages should be configured as **Deploy from a branch → main → /(root)**.
 
-## Design direction
+## Structure
+- `index.html` — homepage
+- `research.html` — three research programs and principles
+- `people.html` — lab lead, current trainees, mentorship, selected alumni
+- `publications.html` — visual flagship papers + selected searchable archive
+- `news.html` — recent papers and funded project updates
+- `join.html` — trainee/collaborator fit and contact
+- `assets/img/*.svg` — original site-native scientific visual summaries
 
-This version deliberately avoids a CV/resume structure. The homepage is organized around:
+## Public assets and attribution
+- Publication graphics in `assets/img/visual-*.svg` are **original visual summaries created for this site** from information reported in the linked primary articles; they are not copied journal figures.
+- The PI portrait is loaded from a public University of Toronto Biomedical Engineering image URL, with the public GitHub avatar as fallback. Replace it with a lab-owned photo at any time for full control.
+- CIHR, Brain Canada Foundation, and Mitacs marks are displayed only to acknowledge research support and remain the property of their respective organizations. The site links each mark to the funder's official website.
 
-1. A single lab thesis.
-2. Three connected research programs.
-3. A shared research/evaluation process.
-4. Four representative pieces of work.
-5. Training and collaboration culture.
-
-The complete historical CV is not reproduced on the site. Earlier publications remain discoverable through Google Scholar.
+## Important content note
+The site intentionally presents a research-group narrative rather than a chronological biography. Keep news, people, funding, and project status current as the group evolves.

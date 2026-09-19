@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390">
+<rect width="680" height="390" rx="24" fill="#f2f3ec"/><g font-family="Arial,Helvetica,sans-serif">
+<text x="34" y="42" font-size="12" letter-spacing="1.8" fill="#6e7466">CONCEPTUAL SCHEMATIC · PERSONALIZED tTIS</text>
+<path d="M217 94c-54 5-94 49-94 104 0 49 30 88 73 101 15 5 27 19 27 35v9h120v-34c0-14 8-27 20-34 43-25 66-77 54-126-14-57-67-94-124-84-19 3-36 13-49 29-8-3-17-2-27 0Z" fill="#fff" stroke="#ccd1c4" stroke-width="2"/>
+<ellipse cx="267" cy="195" rx="78" ry="61" fill="none" stroke="#c8cec0" stroke-width="1.5" stroke-dasharray="4 5"/>
+<path d="M84 118c82 14 133 55 186 128M84 268c72-8 132-47 186-22" fill="none" stroke="#1c756c" stroke-width="3"/>
+<path d="M456 118c-70 22-115 67-186 128M456 268c-75-3-122-39-186-22" fill="none" stroke="#c56f35" stroke-width="3"/>
+<circle cx="270" cy="246" r="12" fill="#625d95"/><text x="289" y="250" font-size="11" fill="#625d95">sgACC target</text>
+<text x="62" y="105" font-size="11" fill="#1c756c">field A</text><text x="451" y="105" font-size="11" fill="#c56f35">field B</text>
+<g transform="translate(485 96)"><text x="0" y="0" font-size="11" letter-spacing="1.2" fill="#6e7466">PROJECT LOGIC</text><text x="0" y="38" font-size="13" fill="#132b2a">01 · Personal brain model</text><text x="0" y="74" font-size="13" fill="#132b2a">02 · Optimize field overlap</text><text x="0" y="110" font-size="13" fill="#132b2a">03 · Link dose to response</text><text x="0" y="146" font-size="13" fill="#132b2a">04 · Personalize stimulation</text></g>
+<text x="34" y="356" font-size="11" fill="#6e7466">Active Brain Canada-supported project · treatment-resistant depression · conceptual, not anatomical guidance</text>
+</g></svg>
