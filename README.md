@@ -1,3 +1,10 @@
+
+## Important: upload folders, not only the HTML files
+
+The site depends on `assets/css/style.css`, `assets/js/`, and `assets/img/`. If `assets/` is missing from GitHub, the pages will appear largely unstyled. When using GitHub's web uploader, **drag the entire extracted folder contents into the upload area** so the `assets` directory is included recursively. Do not select only the top-level HTML files.
+
+After upload, open the repository root and confirm that an **`assets` folder is visible** before testing the Pages URL.
+
 # Kamaleddin Research Group website
 
 A build-free research website designed for GitHub Pages. The site uses only HTML, CSS, JavaScript, and SVG, so GitHub can publish it directly from the repository root.
