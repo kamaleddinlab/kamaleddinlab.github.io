@@ -1,4 +1,4 @@
-# Kamaleddin Research Group website
+# Kamaleddin Lab website
 
 Static GitHub Pages site for `https://kamaleddinlab.github.io/`.
 
@@ -7,13 +7,13 @@ Copy every file and folder in this package to the root of `kamaleddinlab/kamaled
 
 ```bash
 git add .
-git commit -m "Redesign Kamaleddin Research Group website"
+git commit -m "Redesign Kamaleddin Lab website"
 git push origin main
 ```
 
 GitHub Pages settings: **Deploy from a branch → main → /(root)**.
 
-## Trainees and collaborators portraits
+## Team portraits
 All person cards use the same 4:5 frame and `object-fit: cover`, so replacement photos stay visually consistent.
 
 Two public identities could be matched unambiguously during the site research:
@@ -28,14 +28,10 @@ Public searches for Zachary Korte, Karthika Baiju, and Ming Xuan Yue returned mu
 ## Main content files
 - `index.html` — group-oriented homepage
 - `research.html` — three research programs and methods
-- `people.html` — trainees, collaborators, and working style
+- `people.html` — team and lab culture
 - `publications.html` — selected visual publications, not an exhaustive bibliography
-- `news.html` — selected research updates
-- `join.html` — research opportunities and collaboration
+- `news.html` — current work and lab updates
+- `join.html` — trainee and collaborator information
 
 ## Visual approach
 The site intentionally avoids long biographical timelines, award lists, and citation counters. Research, people, projects, and collaboration are the primary hierarchy.
-
-
-## Published figures
-The site uses unmodified published figures only where the article license permits website reuse and includes source/license credit. Other publication visuals are site-native summaries to avoid reproducing restricted publisher artwork.
