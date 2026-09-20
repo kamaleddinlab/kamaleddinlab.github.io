@@ -1,5 +1,5 @@
 
-window.ICONS={
+const ICONS={
 brain:'<svg viewBox="0 0 24 24"><path d="M9.5 4.5A3.5 3.5 0 0 0 6 8v.2A3.8 3.8 0 0 0 4 15a3.5 3.5 0 0 0 5.5 2.9V6.2a3 3 0 0 1 3-3"/><path d="M14.5 4.5A3.5 3.5 0 0 1 18 8v.2a3.8 3.8 0 0 1 2 6.8 3.5 3.5 0 0 1-5.5 2.9V6.2a3 3 0 0 0-3-3"/><path d="M6 10h3.5M18 10h-3.5M6.5 16h3M17.5 16h-3"/></svg>',
 chat:'<svg viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/><path d="M8 9h8M8 13h5"/></svg>',
 shield:'<svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.8-3 8-7 10-4-2-7-5.2-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>',
@@ -22,7 +22,7 @@ spark:'<svg viewBox="0 0 24 24"><path d="m12 3 1.4 4.1L17.5 8.5l-4.1 1.4L12 14l-
 search:'<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>',
 globe:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.2 2.4 3.5 5.4 3.5 9S14.2 18.6 12 21M12 3c-2.2 2.4-3.5 5.4-3.5 9S9.8 18.6 12 21"/></svg>'
 };
-document.querySelectorAll('[data-icon]').forEach(el=>{const k=el.dataset.icon;if(window.ICONS[k]){el.classList.add('icon');el.innerHTML=window.ICONS[k];}});
+document.querySelectorAll('[data-icon]').forEach(el=>{const k=el.dataset.icon;if(ICONS[k]){el.classList.add('icon');el.innerHTML=ICONS[k];}});
 const toggle=document.querySelector('.nav-toggle'), links=document.querySelector('.nav-links');
 if(toggle&&links) toggle.addEventListener('click',()=>links.classList.toggle('open'));
 document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>links?.classList.remove('open')));
