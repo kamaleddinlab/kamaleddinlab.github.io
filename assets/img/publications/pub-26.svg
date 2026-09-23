@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="230" viewBox="0 0 380 230" role="img" aria-labelledby="t d">
+    <title id="t">Visual summary for publication 26</title><desc id="d">Comparison of corneal measurements in keratoconic e…</desc>
+    <rect width="380" height="230" rx="22" fill="#F4F7F6"/>
+    <g><path d="M50 105 C115 35, 255 35, 330 105 C255 175, 115 175, 50 105Z" fill="#fff" stroke="#CFE0DC" stroke-width="4"/><ellipse cx="190" cy="105" rx="58" ry="52" fill="#2D5F9A" opacity=".10" stroke="#2D5F9A" stroke-width="4"/><circle cx="190" cy="105" r="25" fill="#0C7A78" opacity=".18"/><path d="M155 50 Q190 104 155 160" fill="none" stroke="#D96D4F" stroke-width="5"/></g>
+    <rect x="22" y="190" width="336" height="1" fill="#CFE0DC"/>
+    <text x="24" y="213" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#10242D" letter-spacing=".7">CLINICAL IMAGING · VISUAL SUMMARY</text>
+    <text x="350" y="28" text-anchor="end" font-family="Georgia,serif" font-size="17" fill="#0C7A78">26</text>
+    </svg>

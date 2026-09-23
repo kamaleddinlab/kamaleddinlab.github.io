@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="230" viewBox="0 0 380 230" role="img" aria-labelledby="t d">
+    <title id="t">Visual summary for publication 32</title><desc id="d">Biophysical properties of the membrane influence sp…</desc>
+    <rect width="380" height="230" rx="22" fill="#F4F7F6"/>
+    <g><path d="M32 112 H58 L72 106 84 120 97 94 111 112 124 107 138 114 150 50 158 165 166 110 184 106 202 114 218 108 236 112 250 91 260 135 272 111 290 108 310 115 332 108 350 112" fill="none" stroke="#0C7A78" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><path d="M75 36V176" stroke="#CFE0DC" stroke-width="2"/><path d="M150 36V176" stroke="#CFE0DC" stroke-width="2"/><path d="M225 36V176" stroke="#CFE0DC" stroke-width="2"/><path d="M300 36V176" stroke="#CFE0DC" stroke-width="2"/><path d="M28 72H352M28 150H352" stroke="#CFE0DC" stroke-width="2"/></g>
+    <rect x="22" y="190" width="336" height="1" fill="#CFE0DC"/>
+    <text x="24" y="213" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#10242D" letter-spacing=".7">NEURAL SIGNAL · VISUAL SUMMARY</text>
+    <text x="350" y="28" text-anchor="end" font-family="Georgia,serif" font-size="17" fill="#0C7A78">32</text>
+    </svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="230" viewBox="0 0 380 230" role="img" aria-labelledby="t d">
+    <title id="t">Visual summary for publication 6</title><desc id="d">End-to-end redesign of psychiatric outpatient servi…</desc>
+    <rect width="380" height="230" rx="22" fill="#F4F7F6"/>
+    <g><path d="M75 80 L175 48" stroke="#CFE0DC" stroke-width="5"/><path d="M175 48 L280 92" stroke="#CFE0DC" stroke-width="5"/><path d="M280 92 L190 145" stroke="#CFE0DC" stroke-width="5"/><path d="M190 145 L75 80" stroke="#CFE0DC" stroke-width="5"/><path d="M175 48 L190 145" stroke="#CFE0DC" stroke-width="5"/><circle cx="75" cy="80" r="20" fill="#fff" stroke="#0C7A78" stroke-width="5"/><circle cx="75" cy="80" r="6" fill="#0C7A78"/><circle cx="175" cy="48" r="20" fill="#fff" stroke="#2D5F9A" stroke-width="5"/><circle cx="175" cy="48" r="6" fill="#2D5F9A"/><circle cx="280" cy="92" r="20" fill="#fff" stroke="#D96D4F" stroke-width="5"/><circle cx="280" cy="92" r="6" fill="#D96D4F"/><circle cx="190" cy="145" r="20" fill="#fff" stroke="#B28B3C" stroke-width="5"/><circle cx="190" cy="145" r="6" fill="#B28B3C"/></g>
+    <rect x="22" y="190" width="336" height="1" fill="#CFE0DC"/>
+    <text x="24" y="213" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#10242D" letter-spacing=".7">AGENTIC AI · VISUAL SUMMARY</text>
+    <text x="350" y="28" text-anchor="end" font-family="Georgia,serif" font-size="17" fill="#0C7A78">06</text>
+    </svg>
