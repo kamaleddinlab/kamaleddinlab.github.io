@@ -28,13 +28,13 @@ Public searches for Zachary Korte, Karthika Baiju, and Ming Xuan Yue returned mu
 ## Main content files
 - `index.html` — group-oriented homepage
 - `research.html` — three research programs and methods
-- `people.html` — trainees, collaborators, and working style
-- `publications.html` — selected visual publications, not an exhaustive bibliography
+- `people.html` — current trainees plus supervision history and CV-listed current positions
+- `publications.html` — featured work plus the complete 39-item CV publication/manuscript record organized into five themes
 - `news.html` — selected research updates
 - `join.html` — research opportunities and collaboration
 
 ## Visual approach
-The site intentionally avoids long biographical timelines, award lists, and citation counters. Research, people, projects, and collaboration are the primary hierarchy.
+The site intentionally avoids long biographical timelines, award lists, and citation counters. Research, people, projects, publications, and collaboration are the primary hierarchy. The publications page now preserves the full CV record while grouping it by research theme; the people page preserves the CV supervision list and current destinations/statuses.
 
 
 ## Published figures

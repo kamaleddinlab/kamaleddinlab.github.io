@@ -1,3 +1,8 @@
-
-const btns=[...document.querySelectorAll('.filter-btn')], rows=[...document.querySelectorAll('[data-theme]')];
-btns.forEach(b=>b.addEventListener('click',()=>{btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;rows.forEach(r=>r.hidden=!(f==='all'||r.dataset.theme.includes(f)));}));
+const btns=[...document.querySelectorAll('.filter-btn')];
+const blocks=[...document.querySelectorAll('[data-theme-block]')];
+btns.forEach(btn=>btn.addEventListener('click',()=>{
+  btns.forEach(b=>{b.classList.remove('active');b.setAttribute('aria-pressed','false')});
+  btn.classList.add('active');btn.setAttribute('aria-pressed','true');
+  const filter=btn.dataset.filter;
+  blocks.forEach(block=>{block.hidden=!(filter==='all'||block.dataset.themeBlock===filter)});
+}));
