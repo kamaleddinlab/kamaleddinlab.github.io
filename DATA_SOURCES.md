@@ -38,4 +38,12 @@ For manuscripts or conference/preprint items without a verified public publicati
 - Agilan Sivakumaran — https://ca.linkedin.com/in/agilan-sivakumaran
 - Nghia Le — https://ca.linkedin.com/in/nghiale0811
 
-LinkedIn's publicly indexed pages did not expose a stable reusable profile-image URL for these records. To avoid placing the wrong person's photo on the site, the package uses neutral initials where a portrait could not be independently and confidently verified.
+The website uses the verified LinkedIn profile slugs above to request each matching profile image via Unavatar's documented LinkedIn avatar endpoint, with the existing local monogram as a fallback.
+
+
+## Research support records
+
+- Translational Psychiatry (2026) records Mitacs Accelerate Fellowship, Brain Canada Foundation Rising Stars Award, and CIHR Canada Postdoctoral Research Award support to M.A.K.: https://www.nature.com/articles/s41398-026-04335-5
+- PNAS (2022) records Ontario Trillium Scholarship, Milligan Graduate Fellowship, Loo Geok Eng Foundation Scholarship, and Vanier Canada Graduate Scholarship support to M.A.K.: https://pmc.ncbi.nlm.nih.gov/articles/PMC9478643/
+- Vanier Scholar record: https://vanier.gc.ca/en/scholar_search-chercheur_recherche_2018.html
+- T-CAIREM: https://tcairem.utoronto.ca/
