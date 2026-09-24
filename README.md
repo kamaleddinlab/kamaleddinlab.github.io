@@ -20,12 +20,9 @@ For the current-team cards, two public identities could be matched unambiguously
 - Mohammad Amin Kamaleddin — official University of Toronto portrait
 - Erzheng (Erwin) Zhang — public professional portrait, with LinkedIn and personal website confirming the identity
 
-For the supervision history, verified LinkedIn profile links are included for Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Areez Visram, Agilan Sivakumaran, and Nghia Le. Their cards request the matching LinkedIn profile image through the public Unavatar LinkedIn-avatar endpoint, with the local monogram SVG retained as a fallback if a remote image is unavailable.
+For the supervision history, verified LinkedIn profile links are included for Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Areez Visram, Agilan Sivakumaran, and Nghia Le. Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Agilan Sivakumaran, and Nghia Le continue to request the matching LinkedIn profile image through the public Unavatar LinkedIn-avatar endpoint, with the local monogram SVG retained as a fallback if a remote image is unavailable.
 
-Public searches for Zachary Korte, Karthika Karthika, and Ming Xuan Yue returned multiple or clearly unrelated people. The package therefore uses neutral, same-format monogram portraits instead of risking a wrong identity. Replace these files when you have a verified photo:
-- `assets/img/zachary-korte.svg`
-- `assets/img/karthika-karthika.svg`
-- `assets/img/ming-xuan-yue.svg`
+Local profile photos supplied with this update are now used for Zachary Korte, Karthika Karthika, Ming Xuan Yue, Maryam Ashktorab, Anne Rose De Kort, Devanshi Shah, Areez Visram, Xiaoyang Liu, and Hoorya Rafiq. The existing monogram SVGs are retained as fallbacks if a local image cannot be loaded.
 
 ## Main content files
 - `index.html` — group-oriented homepage
