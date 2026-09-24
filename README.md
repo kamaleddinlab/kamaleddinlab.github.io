@@ -16,13 +16,11 @@ GitHub Pages settings: **Deploy from a branch → main → /(root)**.
 ## Trainees and collaborators portraits
 Current-team person cards use the same 4:5 frame and `object-fit: cover`; supervision-history portraits use compact square frames, so replacement photos stay visually consistent within each section.
 
-For the current-team cards, two public identities could be matched unambiguously during the site research:
-- Mohammad Amin Kamaleddin — official University of Toronto portrait
-- Erzheng (Erwin) Zhang — public professional portrait, with LinkedIn and personal website confirming the identity
+For the current-team cards, the supplied local profile photos are used for Mohammad Amin Kamaleddin and Erzheng (Erwin) Zhang, with the existing monogram SVGs retained as fallbacks.
 
-For the supervision history, verified LinkedIn profile links are included for Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Areez Visram, Agilan Sivakumaran, and Nghia Le. Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Agilan Sivakumaran, and Nghia Le continue to request the matching LinkedIn profile image through the public Unavatar LinkedIn-avatar endpoint, with the local monogram SVG retained as a fallback if a remote image is unavailable.
+For the supervision history, verified LinkedIn profile links are included for Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Areez Visram, Agilan Sivakumaran, and Nghia Le. Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, and Agilan Sivakumaran continue to request the matching LinkedIn profile image through the public Unavatar LinkedIn-avatar endpoint, with the local monogram SVG retained as a fallback if a remote image is unavailable.
 
-Local profile photos supplied with this update are now used for Zachary Korte, Karthika Karthika, Ming Xuan Yue, Maryam Ashktorab, Anne Rose De Kort, Devanshi Shah, Areez Visram, Xiaoyang Liu, and Hoorya Rafiq. The existing monogram SVGs are retained as fallbacks if a local image cannot be loaded.
+Local profile photos supplied with these updates are now used for Zachary Korte, Karthika Karthika, Ming Xuan Yue, Maryam Ashktorab, Anne Rose De Kort, Devanshi Shah, Areez Visram, Xiaoyang Liu, Hoorya Rafiq, and Nghia Le. The existing monogram SVGs are retained as fallbacks if a local image cannot be loaded.
 
 ## Main content files
 - `index.html` — group-oriented homepage

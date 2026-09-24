@@ -38,7 +38,7 @@ For manuscripts or conference/preprint items without a verified public publicati
 - Agilan Sivakumaran — https://ca.linkedin.com/in/agilan-sivakumaran
 - Nghia Le — https://ca.linkedin.com/in/nghiale0811
 
-The website uses the verified LinkedIn profile slugs above for profile links. Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, Agilan Sivakumaran, and Nghia Le use the matching Unavatar LinkedIn-avatar image with a local monogram fallback. Areez Visram now uses the local profile photo supplied with this update, while retaining the verified LinkedIn link and monogram fallback.
+The website uses the verified LinkedIn profile slugs above for profile links. Luca Baiocchi, Niloufar Naeeni, Reza Barzegar, and Agilan Sivakumaran use the matching Unavatar LinkedIn-avatar image with a local monogram fallback. Areez Visram and Nghia Le use local profile photos supplied with the website updates, while retaining their verified LinkedIn links and monogram fallbacks.
 
 
 ## Research support records
